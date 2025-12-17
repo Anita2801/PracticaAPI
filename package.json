@@ -1,0 +1,27 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "practica tep",
+  "type": "module",
+  "homepage": "https://github.com/Anita2801/PracticaAPI#readme",
+  "bugs": {
+    "url": "https://github.com/Anita2801/PracticaAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anita2801/PracticaAPI.git"
+  },
+  "license": "ISC",
+  "author": "Ana Mora",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.0.0"
+  }
+}
